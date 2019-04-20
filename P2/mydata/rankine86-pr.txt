@@ -1,0 +1,8 @@
+ Rankine Cycle:            Rankine86      
+ Net Power（MW）:           100.00     
+ Mass Flow（kg/h）:        275686.41   
+ Efficiency(%) :             43.65        
+ TotalWExtracted(MW) :      100.65     
+ totalWRequired(MW) :         0.65        
+ totalQAdded(MW) :          229.11       
+

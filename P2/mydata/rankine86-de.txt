@@ -1,0 +1,66 @@
+Steam_Generator
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  0   	  8.000     480.00    3349.53    6.661      0.040     1.000      1.00
+  10  	  8.000     205.00     877.41    2.368      0.001     0.000      1.00
+Steam_Generator outputs energy of 2472.116 kJ/kg
+
+Reheater
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  2   	  0.700     164.95    2742.63    6.661      0.270     0.990      0.85
+  3   	  0.700     440.00    3353.81    7.759      0.467     1.000      0.85
+Reheater outputs energy of 519.681 kJ/kg
+
+Condenser
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  5   	  0.008      41.51    2428.79    7.759     16.989     0.939      0.78
+  6   	  0.008      41.51     173.85    0.593      0.001     0.000      0.78
+Condenser outputs energy of 1763.273 kJ/kg
+
+Condensate_Pump
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  6   	  0.008      41.51     173.85    0.593      0.001     0.000      0.78
+  7   	  0.300      41.52     174.15    0.593      0.001     0.000      0.78
+Condensate_Pump outputs energy of 0.230 kJ/kg
+
+Feedwater_Pump
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  8   	  0.300     133.53     561.46    1.672      0.001     0.000      1.00
+  9   	  8.000     134.25     569.70    1.672      0.001     0.000      1.00
+Feedwater_Pump outputs energy of 8.248 kJ/kg
+
+Trap
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  11  	  2.000     212.38     908.62    2.447      0.001     0.000      0.15
+  12  	  0.300     133.53     908.62    2.525      0.098     0.160      0.15
+Trap outputs energy of 0.000 kJ/kg
+
+HP_Turbine
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  0   	  8.000     480.00    3349.53    6.661      0.040     1.000      1.00
+  1   	  2.000     274.52    2964.05    6.661      0.119     1.000      0.15
+  2   	  0.700     164.95    2742.63    6.661      0.270     0.990      0.85
+HP_Turbine outputs energy of 573.750 kJ/kg
+
+LP_Turbine
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  3   	  0.700     440.00    3353.81    7.759      0.467     1.000      0.85
+  4   	  0.300     315.69    3101.62    7.759      0.900     1.000      0.85
+  5   	  0.008      41.51    2428.79    7.759     16.989     0.939      0.78
+LP_Turbine outputs energy of 740.560 kJ/kg
+
+LP_Feedwater_Heater
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  4   	  0.300     315.69    3101.62    7.759      0.900     1.000      0.85
+  7   	  0.300      41.52     174.15    0.593      0.001     0.000      0.78
+  12  	  0.300     133.53     908.62    2.525      0.098     0.160      0.15
+  8   	  0.300     133.53     561.46    1.672      0.001     0.000      1.00
+LP_Feedwater_Heater outputs energy of 225.554 kJ/kg
+
+HP_Feedwater_Heater
+ NID  	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+  1   	  2.000     274.52    2964.05    6.661      0.119     1.000      0.15
+  9   	  8.000     134.25     569.70    1.672      0.001     0.000      1.00
+  10  	  8.000     205.00     877.41    2.368      0.001     0.000      1.00
+  11  	  2.000     212.38     908.62    2.447      0.001     0.000      0.15
+HP_Feedwater_Heater outputs energy of 359.679 kJ/kg
+

@@ -1,0 +1,14 @@
+NAME                               	  Node 	  P(MPa)     T(C)    H(kJ/kg)  S(kJ/kg.K)  v(m3/kg)     x        fdot  
+MainSteam                          	   0   	  8.000     480.00    3349.53    6.661      0.040     1.000      1.00
+ExtractedSteamOfHP                 	   1   	  2.000     274.52    2964.05    6.661      0.119     1.000      0.15
+EXhaustedSteamofHP                 	   2   	  0.700     164.95    2742.63    6.661      0.270     0.990      0.85
+InletSteamOfLP                     	   3   	  0.700     440.00    3353.81    7.759      0.467     1.000      0.85
+ExtractedSteamOfLP                 	   4   	  0.300     315.69    3101.62    7.759      0.900     1.000      0.85
+EXhaustedSteamofLP                 	   5   	  0.008      41.51    2428.79    7.759     16.989     0.939      0.78
+CondensateWater                    	   6   	  0.008      41.51     173.85    0.593      0.001     0.000      0.78
+FW of OutletCondensatePump         	   7   	  0.300      41.52     174.15    0.593      0.001     0.000      0.78
+FW of InletFeedwaterPump           	   8   	  0.300     133.53     561.46    1.672      0.001     0.000      1.00
+FW of OutletFeedwaterPump          	   9   	  8.000     134.25     569.70    1.672      0.001     0.000      1.00
+MainFeedwater                      	   10  	  8.000     205.00     877.41    2.368      0.001     0.000      1.00
+DrainwaterInletOfTrap              	   11  	  2.000     212.38     908.62    2.447      0.001     0.000      0.15
+DrainwaterOutletOfTrap             	   12  	  0.300     133.53     908.62    2.525      0.098     0.160      0.15
